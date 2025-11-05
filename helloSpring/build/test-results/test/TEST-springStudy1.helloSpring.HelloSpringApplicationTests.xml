@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="springStudy1.helloSpring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-01T04:02:02.781Z" hostname="gimseoyun-ui-MacBookAir.local" time="0.302">
+  <properties/>
+  <testcase name="contextLoads()" classname="springStudy1.helloSpring.HelloSpringApplicationTests" time="0.302"/>
+  <system-out><![CDATA[13:02:02.350 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [springStudy1.helloSpring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:02:02.382 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration springStudy1.helloSpring.HelloSpringApplication for test class springStudy1.helloSpring.HelloSpringApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-10-01T13:02:02.494+09:00  INFO 52101 --- [helloSpring] [    Test worker] s.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.16 with PID 52101 (started by sy0518 in /Users/sy0518/Downloads/helloSpring)
+2025-10-01T13:02:02.494+09:00  INFO 52101 --- [helloSpring] [    Test worker] s.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T13:02:02.704+09:00  INFO 52101 --- [helloSpring] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-01T13:02:02.777+09:00  INFO 52101 --- [helloSpring] [    Test worker] s.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 0.357 seconds (process running for 0.662)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
